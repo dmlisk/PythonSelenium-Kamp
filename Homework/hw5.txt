@@ -1,0 +1,15 @@
+
+
+
+
+Pytest Decorator
+
+@pytest.fixture: Testler için tanımlanmış, güvenilir ve tutarlı bir bağlam sağlar. İçerisinde bir veritabanı veya veri kümesi içerebilir.
+
+@pytest.mark.parametrize: Test bağlamında bu dekaratör, aynı testi hazırlanmış bir setten farklı değerlerle çalıştırma işlemidir. Test ve verilerin her bir kombinasyonu, yeni bir test durumu olarak sayılır.
+
+@pytest.mark.skip: Belirlenen testi atlamak için kullanılır.
+
+@pytest.mark.xfail: Belirli bir testin başarısız olması bekleniyorsa kullanılır. Henüz düzeltilmemiş bir hata için yapılan testtir.
+
+@pytest.mark.timeout: Belirli bir testin çalışması için maksimum süresi belirlenir.
